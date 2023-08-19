@@ -2,10 +2,10 @@
 The Hospital Management System is a web-based application designed to streamline and automate various administrative and operational tasks within a hospital or healthcare facility.
 
 ## Features
-- **Patient details
-- **Appointments
-- **Doctor details
-- **Hospital details
+- Patient details
+- Appointments
+- Doctor details
+- Hospital details
 
 ## Technologies Used
 - Backend Framework: Django
@@ -16,28 +16,26 @@ The Hospital Management System is a web-based application designed to streamline
 ## setup
 - create folder in your directory like Hospitalmanagement
 - Create a .env file in the project root
-  python -m venv hospitalenv
+  (python -m venv hospitalenv)
 - activate the virtual environment
-  hospitalenv\scripts\activate
+  (hospitalenv\scripts\activate)
 - install djangoframework
-  python -m pip install django
+  (python -m pip install django)
 - next to create project
-  python -m django startproject hospitalmanagement
+  (python -m django startproject hospitalmanagement)
 - To create application using commend
-  python manage.py startapp hospitalapi
+  (python manage.py startapp hospitalapi)
 - To run the application
-  pyhton manage.py runserver
+  (pyhton manage.py runserver)
 - To create file and add column in database using the commands are
-  python manage.py makemigrations
-  pyhton manage.py migrate
+  (python manage.py makemigrations,
+   pyhton manage.py migrate)
   
 ## Result
 Response methods:
-    Operation       	HTTP/HTTPS Methods	          Description
-      Read	               get 	                Reading/getting data
-      Create	             Post	               Creating/posting /inserting data
-      Update	             Put                     Put-complete update
-      Delete	            Delete	                 Deleting data
-
+-  GET-Reading/getting data
+-  POST-Creating/posting /inserting data
+-  PUT- Update the data
+-  DELETE- Delete the data
 
 
